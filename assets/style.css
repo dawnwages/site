@@ -1,0 +1,260 @@
+/*
+font-family: 'Rubik', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Cabin', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Nunito', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Slabo 27px', serif;
+*/
+
+#contact {
+    background-color: #DDB31A;
+}
+
+
+/*The future*/
+#main, .row{
+    margin-bottom: 0px;
+}
+#font1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 75px;
+    /*float: left;*/
+}
+
+/*is*/
+#font2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 75px;
+    float: right;
+    margin-top: 10px;
+}
+
+/*created by what*/
+#font3 {
+    font-family: 'Cabin', sans-serif;
+    float: right;
+    font-size: 25px;
+    letter-spacing: 18px;
+}
+
+
+.drop {
+    position: relative;
+  }
+
+
+#font4 {
+    font-family: 'Inconsolata', monospace;
+    text-align: right;
+    font-size: 25px;
+    font-style: oblique;
+    margin-top: 50px;
+}
+
+#font5 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 150px;
+    /* float: right; */
+    position: absolute;
+    right: 100px;
+    margin-top: -40px;
+}
+
+#font6 {
+    font-family: 'Slabo 27px', serif;
+}
+
+#font7 {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.ball {
+    border-radius: 50%;
+    border: 1px solid #000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body {
+    /*background: linear-gradient(to bottom right, #ada8b6, #E6E8E6);*/
+    background: url("https://images.fineartamerica.com/images-medium-large-5/raleigh-skyline-at-dusk-evening-black-and-white-bw-evening-panorama-north-carolina-nc-jon-holiday.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+div {
+   
+}
+.collapsible-body {
+    background: rgba(156, 156, 156, 0.9);
+/*    opacity: 0.6;
+    filter: alpha(opacity=60);*/
+}
+
+#github img{
+    width: 100%;
+}
+
+#ballBox {
+    height: 125px;
+    width: 100%;
+    position: fixed;
+    z-index: +999;
+}
+
+.scroll{
+    width: 20px;
+    height: 20px;
+}
+
+#me {
+    background-image: url('images/DawnbyPaulSetera.png');
+    background-size: 100%;
+    border-radius: 116px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#skills {
+    margin-top: 120px;
+}
+
+.skill {
+    margin: 10px;
+    width: 200px;
+}
+
+#aboutme, #about-text {
+    background-color: #7D82B8;
+}
+
+#tools, #tools-text {
+    background-color: #DD763E;
+}
+
+#Education, #edu-text {
+    background-color: #DDB31A;
+}
+
+#PD, #PD-text {
+    background-color: #7B4B94;
+}
+
+.me-top {
+    width: 230px;
+    height: 230px;
+    margin: 50px;
+    left: 39%;
+    top: -37px;
+    position: fixed;
+    z-index: +1000;
+}
+
+.me-scrolled {
+    width: 125px;
+    height: 125px;
+    margin: 50px;
+    left: -2%;
+    top: 35px;
+    position: fixed;
+    z-index: +1000;
+}
+
+#me:hover {
+    background: url('images/IMG_0675.jpg');
+    background-size: 100%;
+}
+
+.main {
+    margin-top: 30px;
+}
+
+.scriptTitle {
+    font-family: 'Pacifico', cursive;
+    font-size: 75px;
+    text-shadow: 2px 2px 8px #000000;
+    float: left;
+}
+
+.text-scrolled {
+    font-family: 'Pacifico', cursive;
+    font-size: 75px;
+    text-shadow: 2px 2px 8px #000000;
+    float: left;
+    padding-left: 150px;
+}
+
+#hoverNavBox {
+    /*margin-top: 100px;*/
+    height: 200px;
+}
+
+#navText {
+    margin-top: 0px;
+}
+
+#navName{
+    float: left;
+}
+
+#navLinks{
+
+}
+
+
+#title{
+    height: 400px;
+    margin-top: 50px;
+}
+
+#Box1 {
+    margin-top: 20px;
+}
+
+.divider {
+    margin: 10px;
+}
+
+.side-nav {
+    background-color: #465c69;
+}
+
+/*body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}*/
+
+#introduction{
+    margin: 35px;
+}
+
+nav {
+    clear: both;
+    margin-top: 125px;
+    border-bottom: 4px solid #DDB31A;
+    box-shadow: 0 4px 8px 0 rgba(17, 10, 10, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #7B4B94;
+    position: fixed;
+    z-index: +1000;
+}
+
+nav-title{
+    float:right;
+}
+
+.dropdown-content {
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 15px;
+    overflow-x: hidden;
+}
+
+.banner {
+    height: 20px;
+}
+
+.main2 {
+    clear: both;
+}
