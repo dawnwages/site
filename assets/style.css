@@ -12,6 +12,13 @@ font-family: 'Slabo 27px', serif;
     background-color: #DDB31A;
 }
 
+.title {
+    font-weight: bold;
+}
+
+.certList {
+    font-size: 12px;
+}
 
 /*The future*/
 #main, .row{
@@ -231,6 +238,7 @@ div {
 }
 
 nav {
+    text-shadow: 0 0 10px #000000;
     clear: both;
     margin-top: 125px;
     border-bottom: 4px solid #DDB31A;
