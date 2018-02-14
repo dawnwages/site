@@ -16,12 +16,50 @@ font-family: 'Slabo 27px', serif;
     font-weight: bold;
 }
 
+.content {
+/*    right: 40px;
+    left: 280px;
+    top: 50px;*/
+    position: absolute;
+    padding-bottom: 0px;
+    z-index:2;
+	-webkit-transition: all .6s ease-in-out;
+	-moz-transition: all .6s ease-in-out;
+	-o-transition: all .6s ease-in-out;
+	-ms-transition: all .6s ease-in-out;
+	transition: all .6s ease-in-out;
+  }
+
+.panel{
+	position: absolute;
+	margin-left: -102%;
+	z-index:2;
+	-webkit-transition: all .6s ease-in-out;
+	-moz-transition: all .6s ease-in-out;
+	-o-transition: all .6s ease-in-out;
+	-ms-transition: all .6s ease-in-out;
+	transition: all .6s ease-in-out;
+}
+.panel:target{
+	margin-left: 0%;
+	
+}
+
+#home:target ~ #top-banner #navigation #home-link,
+#next:target ~ #top-banner #navigation #next-link,
+#about:target ~ #header #navigation #link-about,
+#contact:target ~ #header #navigation #link-contact {
+  background: #000;
+  color: #fff;
+}
+
+
 .certList {
     font-size: 12px;
 }
 
 /*The future*/
-#main, .row{
+.main, .row{
     margin-bottom: 0px;
 }
 #font1 {
@@ -116,14 +154,14 @@ div {
 }
 
 #me {
-    background-image: url('assets/images/DawnbyPaulSetera.png');
+    background-image: url('images/DawnbyPaulSetera.png');
     background-size: 100%;
     border-radius: 116px;
     background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#skills {
+.area {
     margin-top: 120px;
 }
 
@@ -169,13 +207,10 @@ div {
 }
 
 #me:hover {
-    background: url('images/IMG_0675.jpg');
+    background-image: url('images/IMG_0675.jpg');
     background-size: 100%;
 }
 
-.main {
-    margin-top: 30px;
-}
 
 .scriptTitle {
     font-family: 'Pacifico', cursive;
@@ -261,8 +296,4 @@ nav-title{
 
 .banner {
     height: 20px;
-}
-
-.main2 {
-    clear: both;
 }

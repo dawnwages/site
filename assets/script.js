@@ -9,37 +9,32 @@ $(document).ready(function(){
   $('.collapsible').collapsible();
 });
 
+$(document).ready(function() {
+   $('#tools-text , #PD-text').css('display', 'none');
+
+    $("#aboutme").on("click", function(){
+        $("#about-text").fadeToggle('slow');
+      })
+      
+      $("#tools").on("click", function(){
+        $("#tools-text").fadeToggle('slow');
+      })
+      
+      $("#Education").on("click", function(){
+        $("#edu-text").fadeToggle("slow");
+      })
+      
+      $("#PD").on("click", function(){
+        $("#PD-text").fadeToggle("slow");
+      })
+
+  });
+
 AOS.init({
   duration: 1200,
 })
 
-$("#aboutme").on("click", function(){
-  $("#about-text").removeClass('hide');
-  $("#tools-text").addClass('hide');
-  $("#edu-text").addClass('hide');
-  $("#PD-text").addClass('hide');
-})
 
-$("#tools").on("click", function(){
-  $("#about-text").addClass('hide');
-  $("#tools-text").removeClass('hide');
-  $("#edu-text").addClass('hide');
-  $("#PD-text").addClass('hide');
-})
-
-$("#Education").on("click", function(){
-  $("#about-text").addClass('hide');
-  $("#tools-text").addClass('hide');
-  $("#edu-text").removeClass('hide');
-  $("#PD-text").addClass('hide');
-})
-
-$("#PD").on("click", function(){
-  $("#about-text").addClass('hide');
-  $("#tools-text").addClass('hide');
-  $("#edu-text").addClass('hide');
-  $("#PD-text").removeClass('hide');
-})
 
 $(function () {
   $(document).scroll(function () {
