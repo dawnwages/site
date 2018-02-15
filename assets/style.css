@@ -8,6 +8,10 @@ font-family: 'Nunito Sans', sans-serif;
 font-family: 'Slabo 27px', serif;
 */
 
+#pageBody{
+    margin-top: 100px;
+}
+
 #contact {
     background-color: #DDB31A;
 }
@@ -162,7 +166,7 @@ div {
 }
 
 .area {
-    margin-top: 120px;
+  /*  margin-top: 120px;*/
 }
 
 .skill {

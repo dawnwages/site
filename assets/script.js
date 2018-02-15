@@ -5,6 +5,7 @@ var ballMaxSize = 100;
 
 var container = $("#ballBox");
 
+
 $(document).ready(function(){
   $('.collapsible').collapsible();
 });
