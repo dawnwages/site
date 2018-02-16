@@ -45,8 +45,8 @@ $(function () {
   $(document).scroll(function () {
     var $nav = $("#navName");
     var $me = $("#me");
-	  $nav.toggleClass('text-scrolled', $(this).scrollTop() > $me.height());
-    $me.toggleClass('me-scrolled', $(this).scrollTop() > $me.height());
+	  $nav.toggleClass('text-scrolled', $(this).scrollTop() > $me.height()/3);
+    $me.toggleClass('me-scrolled', $(this).scrollTop() > $me.height()/3);
   });
 });
 
