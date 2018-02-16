@@ -10,6 +10,10 @@ $(document).ready(function(){
   $('.collapsible').collapsible();
 });
 
+$(document).ready(function(){
+  $('.carousel').carousel();
+});
+
 $(document).ready(function() {
    $('#tools-text , #PD-text').css('display', 'none');
 

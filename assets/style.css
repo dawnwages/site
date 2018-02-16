@@ -10,6 +10,7 @@ font-family: 'Slabo 27px', serif;
 
 #pageBody{
     margin-top: 100px;
+    border: #fff solid 5px;
 }
 
 #contact {
@@ -169,8 +170,20 @@ div {
   /*  margin-top: 120px;*/
 }
 
-.skill {
-    margin: 10px;
+#home-buttons{
+
+}
+
+.home-card {
+    width: 622px;
+}
+
+.working {
+    border:  #fff solid 2px;
+}
+
+.home-button {
+    margin: 10px 100px 10px 100px;
     width: 200px;
 }
 
