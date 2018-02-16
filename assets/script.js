@@ -15,7 +15,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function() {
-   $('#tools-text , #PD-text').css('display', 'none');
+   $('#tools-text , #edu-text').css('display', 'none');
 
     $("#aboutme").on("click", function(){
         $("#about-text").fadeToggle('slow');
