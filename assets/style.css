@@ -37,7 +37,8 @@ font-family: 'Slabo 27px', serif;
 
 .panel{
 	position: absolute;
-	margin-left: -102%;
+    margin-left: -102%;
+    margin-bottom: 200px;
 	z-index:2;
 	-webkit-transition: all .6s ease-in-out;
 	-moz-transition: all .6s ease-in-out;
@@ -197,7 +198,7 @@ div {
 }
 
 .box {
-    background-color: #444;
+    background-color: rgba(0,0,0,0.5);
     color: #fff;
     border-radius: 5px;
     padding: 20px;
@@ -206,7 +207,22 @@ div {
 }
 
 .box:hover {
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgb(218, 218, 218);
+    color: #7B4B94;
+}
+
+.box .comingsoon {
+    display: none;
+    
+}
+
+.box:hover .comingsoon {
+    display: block;
+    color: rgb(255, 17, 0);
+}
+
+.descr {
+    font-size: 12px;
 }
 
 .a {
@@ -304,7 +320,7 @@ div {
 }
 
 #me:hover {
-    background-image: url('images/IMG_0675.jpg');
+    background-image: url('images/IMG_0675.png');
     background-size: 100%;
 }
 
