@@ -58,6 +58,62 @@ font-family: 'Slabo 27px', serif;
   color: #fff;
 }
 
+.portfolio {
+    margin: 10px 88px;
+    height: 200px;
+}
+
+.imgtitles{
+    color: #fff;
+    width: 100%;
+    background: #000;
+    text-align: center;
+    margin-top: 160px;
+}
+
+
+.HangmanCLI{
+	background-image: url('images/01-Hangman-Cli.gif');
+}
+
+.img2{
+    background-image: url("http://lorempixel.com/400/400/transport/2");
+    opacity: 0.5;
+}
+
+.img3{
+    background-image: url("http://lorempixel.com/400/400/transport/3");
+    opacity: 0.5;
+}
+
+.img4{
+    background-image: url("http://lorempixel.com/400/400/transport/4");
+    opacity: 0.5;
+}
+
+.img5{
+    background-image: url("http://lorempixel.com/400/400/transport/5");
+    opacity: 0.5;
+}
+
+.img6{
+    background-image: url("http://lorempixel.com/400/400/transport/6");
+    opacity: 0.5;
+}
+
+.img7{
+	background-image: url("http://lorempixel.com/400/400/transport/7");
+}
+
+.img8{
+    background-image: url("http://lorempixel.com/400/400/transport/8");
+    opacity: 0.5;
+}
+
+.img9{
+    background-image: url("http://lorempixel.com/400/400/transport/9");
+    opacity: 0.5;
+}
 
 .certList {
     font-size: 12px;
