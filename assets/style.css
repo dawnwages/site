@@ -46,6 +46,7 @@ font-family: 'Slabo 27px', serif;
 	transition: all .6s ease-in-out;
 }
 .panel:target{
+    margin-top: 225px;
 	margin-left: 0%;
 	
 }
